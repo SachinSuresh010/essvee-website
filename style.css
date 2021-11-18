@@ -1,0 +1,304 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 20;
+}
+
+.navbar-brand img
+{
+	height: auto;
+	padding-left: 30px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #007bff!important;
+}
+.navbar
+{
+	height: 70px;
+	background: #fff;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight:600;
+	font-size: 16px;
+}
+
+
+.dropdown:hover .dropdown-menu{
+	display: block;
+	margin-top: 0;
+}
+/*---------------------------------------------------Slider------------------------------------------------------*/
+#slider
+{
+	width: 100%;
+}
+.carousel-caption
+{
+	top:20%;
+	transform: translateY(50%);
+	bottom: initial !important;
+}
+.carousel-caption h3
+{
+	color:rgb(0, 0, 0);
+	font-size: 4vw; 
+}
+
+
+/*------------------------------------------------------About-----------------------------------------------------*/
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content
+{
+	padding-top: 20px;
+}
+.skills-bar p
+{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+.progress-bar
+{
+	border-radius: 16px;
+}
+.progress
+{
+	border-radius: 16px !important;
+	margin-bottom: 20px;
+}
+/*------------------------------------------Services----------------------------------------------*/
+#services
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./images/Factory1.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#services h1
+{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+}
+#services h1::after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+.services
+{
+	margin-top: 40px;
+}
+.icon
+{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 10px;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #ffff;
+	border-radius: 50%;
+}
+#services p
+{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #ccc;
+}
+.services .col-md-4:hover
+{
+	background: #ffae00;
+	cursor: pointer;
+	transition: 0.7s;
+}
+.services .col-md-4 a{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+	z-index: 10;
+	background-color: #fff;
+	opacity: 0;
+	filter: alpha(opacity=1);
+}
+/*---------------------------------------------Brands---------------------------------------------*/
+#brands {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 90px
+}
+h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+h1::after
+{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+.brands_slider_container {
+	height: 130px;
+	border: solid 1px #e8e8e8;
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+	padding-left: 97px;
+	padding-right: 97px
+}
+
+.brands_slider {
+	height: 100%;
+	margin-top: 50px
+}
+
+.brands_item {
+	height: 100%
+}
+
+.brands_item img {
+	max-width: 100%
+}
+
+.brands_nav {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding: 5px;
+	cursor: pointer
+}
+
+.brands_nav i {
+	color: #e5e5e5;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease
+}
+
+.brands_nav:hover i {
+	color: #676767
+}
+
+.brands_prev {
+	left: 40px
+}
+
+.brands_next {
+	right: 40px
+}
+
+/*------------------------------------------------------Get in Touch--------------------------------------------*/
+#contact
+{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form
+{
+	padding: 10px;
+}
+.form-control
+{
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder
+{
+	color: #999 !important;
+}
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin: 10px;
+}
+.contact-info .fa
+{
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+/*-----------------------------------------------Map--------------------------------------------------------*/
+.mylocation
+{
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+.mylocation iframe
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*-------------------------------------------------Footer-----------------------------------------------------*/
+#footer
+{
+	background-color: #333;
+	color: #fff;
+	padding: 12px;
+}
+
+.button{
+	margin-left: auto;
+	margin-right: auto;
+	width:55%;
+	padding: 10px;
+	padding-left: 30px;
+}
